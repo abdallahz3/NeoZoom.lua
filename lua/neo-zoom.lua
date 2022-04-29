@@ -50,7 +50,7 @@ function M.neo_zoom()
     row = float_top,
     col = float_left,
     height = math.ceil(editor_height * 0.9 + 0.5),
-    width = math.ceil(editor_width / 2 + 0.5),
+    width = math.ceil(0.6666 * editor_width + 0.5),
     focusable = true,
     zindex = 5,
     border = 'double',
